@@ -1,0 +1,5 @@
+{
+  "rewrites": [
+    { "source": "/", "destination": "/NasaHackathon/nasa_hack.html" }
+  ]
+}
