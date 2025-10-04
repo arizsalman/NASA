@@ -1,3 +1,5 @@
+
+
 let apiUrl = "/api/nasa"; // call your Vercel function
 
 // Ensure normalizedMsg is defined before using it
