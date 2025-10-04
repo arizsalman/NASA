@@ -1,0 +1,57 @@
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background: linear-gradient(to bottom right, #0d1b2a, #1b263b, #000814);
+  color: #e0e1dd;
+}
+
+#chat {
+  border: 1px solid #3a506b;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 12px;
+  padding: 15px;
+  height: 350px;
+  overflow-y: auto;
+  box-shadow: 0 0 12px rgba(0, 191, 255, 0.4);
+}
+
+.user {
+  color: #00b4d8;
+  margin: 8px 0;
+  font-weight: bold;
+}
+
+.astro {
+  color: #90e0ef;
+  margin: 8px 0;
+  font-style: italic;
+  padding-left: 10px;
+  border-left: 3px solid #00b4d8;
+}
+
+img {
+  display: block;
+  margin: 12px auto;
+  max-width: 420px;
+  border: 3px solid #00b4d8;
+  border-radius: 16px;
+  box-shadow: 0 0 20px rgba(0, 191, 255, 0.7);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+img:hover {
+  transform: scale(1.08);
+  box-shadow: 0 0 28px rgba(255, 255, 255, 0.9);
+}
+
+#chat::-webkit-scrollbar {
+  width: 8px;
+}
+#chat::-webkit-scrollbar-thumb {
+  background: #00b4d8;
+  border-radius: 8px;
+}
+#chat::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.1);
+}
